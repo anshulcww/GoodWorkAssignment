@@ -1,0 +1,21 @@
+{
+    "searchTradeName": {
+      "type": "Textfield",
+      "props": {
+        "label": "trade name",
+        "required": true
+      }
+    },
+    "searchTradeType": {
+      "type": "Select",
+      "props": {
+        "label": "trade type",
+        "option": [
+          {
+            "name": "goods",
+            "code": "goods"
+          }
+        ]
+      }
+    }
+  }
